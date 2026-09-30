@@ -1,0 +1,24 @@
+[package]
+name = "nm_runjs"
+version = "0.1.0"
+edition = "2024"
+description = "JavaScript/TypeScript Native Messaging host implemented using deno_core"
+authors = [ "guest271314" ]
+
+[dependencies]
+deno_core = "0.411.0"
+deno_ast = { version = "0.53.3", features = ["transpiling"] }
+deno_error = "0.7.1"
+tokio = { version = "1.53.1", features = ["full"] }
+
+[build-dependencies]
+deno_core = "0.411"
+deno_ast = { version = "0.53.3", features = ["transpiling"] }
+deno_error = "0.7.1"
+
+[profile.release]
+opt-level = "z"     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = "abort"     # Abort on panic
+strip = true        # Automatically strip symbols from the binary.
