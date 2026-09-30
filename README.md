@@ -1,6 +1,6 @@
 ## nm_runjs
 
-JavaScript/TypeScript Native Messaging host implemented using `deno_core`.
+JavaScript and TypeScript Native Messaging host implemented using `deno_core`.
 
 ### Build
 ```shell
