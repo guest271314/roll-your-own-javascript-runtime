@@ -3,7 +3,7 @@
   "short_name": "nm_runjs",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "deno_core deno_core TypeScript and JavaScript Native Messaging host",
+  "description": "deno_core Native Messaging host",
   "permissions": ["nativeMessaging"],
   "background": {
     "service_worker": "background.js",
