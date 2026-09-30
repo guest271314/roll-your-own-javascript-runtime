@@ -11,3 +11,5 @@ cargo build --release
 ./nm_standalone_test.js ./target/release/nm_runjs
 ```
 
+## License
+Do What the Fuck You Want to Public License [WTFPLv2](http://www.wtfpl.net/about/)
