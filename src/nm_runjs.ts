@@ -1,4 +1,4 @@
-//! deno_core TypeScript/JavaScript Native Messaging host
+//! deno_core TypeScript Native Messaging host
 //! https://github.com/denoland/roll-your-own-javascript-runtime
 //! https://github.com/guest271314/roll-your-own-javascript-runtime
 //! guest271314 9-20-2026
