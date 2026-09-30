@@ -1,0 +1,9 @@
+{
+  "name": "nm_runjs",
+  "description": "deno_core Native Messaging Host",
+  "path": "/ABSOLUTE/PATH/TO/nm_runjs",
+  "type": "stdio",
+  "allowed_origins": [
+    ""
+  ]
+}
